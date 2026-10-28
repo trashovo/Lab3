@@ -27,10 +27,9 @@
 #### Матрица 1
 <img width="161" height="119" alt="image" src="https://github.com/user-attachments/assets/0345f04f-8f5a-46e5-a50c-201be3452cd0" />
 <br>
-<img width="378" height="62" alt="image" src="https://github.com/user-attachments/assets/bfae8e95-e007-4087-881c-bd94e9cb6241" />
-<br>
-<img width="281" height="54" alt="image" src="https://github.com/user-attachments/assets/4ac1d630-0080-4e1c-a705-5d67b3609859" />
-<br>
+<img width="284" height="83" alt="image" src="https://github.com/user-attachments/assets/8a581e45-7dd7-482b-a493-55d5ff2e0c87" />
+
+
 
 #### Матрица 2
 <img width="216" height="105" alt="image" src="https://github.com/user-attachments/assets/7cf357a5-c927-47ae-a366-63925bc8471d" />
