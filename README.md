@@ -27,7 +27,10 @@
 #### Матрица 1
 <img width="161" height="119" alt="image" src="https://github.com/user-attachments/assets/0345f04f-8f5a-46e5-a50c-201be3452cd0" />
 <br>
+<img width="702" height="83" alt="image" src="https://github.com/user-attachments/assets/baf5ec0a-fccd-4b58-970a-221a14c9d687" />
+<br>
 <img width="284" height="83" alt="image" src="https://github.com/user-attachments/assets/8a581e45-7dd7-482b-a493-55d5ff2e0c87" />
+
 
 
 
@@ -67,6 +70,8 @@
 <br>
 <img width="253" height="165" alt="image" src="https://github.com/user-attachments/assets/4c026c17-d74a-4934-90a2-a2e3964dcfee" />
 <br>
+<img width="702" height="83" alt="image" src="https://github.com/user-attachments/assets/d13a6876-623a-47be-8fb3-1a5832c9b664" />
+<br>
 <img width="453" height="133" alt="image" src="https://github.com/user-attachments/assets/0f20fffe-6aab-4cc1-9576-59728f244f14" />
 
 
@@ -90,6 +95,8 @@
 
 ### Тестирование
 <img width="188" height="346" alt="image" src="https://github.com/user-attachments/assets/74a20574-54f6-4b62-bc18-1d2e8bd2b526" />
+<br>
+<img width="702" height="83" alt="image" src="https://github.com/user-attachments/assets/c4eac69c-5657-4afc-88ce-cfeb65ee24a8" />
 <br>
 <img width="659" height="50" alt="image" src="https://github.com/user-attachments/assets/c11c9150-9a59-4447-883a-38dd4c657791" />
 
