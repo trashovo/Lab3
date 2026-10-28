@@ -176,7 +176,7 @@ namespace Lab3
                     {
                         product *= _data[i, j];
                     }
-                    Console.WriteLine($"Столбец {j}: Произведение = {product}");
+                    Console.WriteLine($"Столбец {j+1}: Произведение = {product}");
                 }
             }
 

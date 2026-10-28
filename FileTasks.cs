@@ -38,8 +38,21 @@ namespace Lab3
                     writer.Write(product);
                 }
             }
-
             Console.WriteLine("Произведения соседних элементов записаны в бинарный файл");
+        }
+        
+        public static void PrintBinaryFile(string fileName)
+        {
+            Console.WriteLine($"Содержимое бинарного файла {fileName}:");
+            using (BinaryReader reader = new BinaryReader(File.Open(fileName, FileMode.Open)))
+            {
+                while (reader.BaseStream.Position < reader.BaseStream.Length)
+                {
+                    int number = reader.ReadInt32();
+                    Console.Write(number + " ");
+                }
+            }
+            Console.WriteLine();
         }
         
         public static void GenerateToysXml(string fileName)
@@ -71,7 +84,7 @@ namespace Lab3
                 Console.WriteLine(toy.ToString());
                 if (toy.Name.Contains("Конструктор"))
                 {
-                    Console.WriteLine($"-> Этот конструктор для детей от {toy.MinAge} до {toy.MaxAge} лет");
+                    Console.WriteLine($"---Этот конструктор для детей от {toy.MinAge} до {toy.MaxAge} лет");
                 }
             }
         }
@@ -102,13 +115,20 @@ namespace Lab3
             Console.WriteLine("Все числа увеличены на 1 и записаны в новый файл");
         }
         
-        public static void GenerateTextFileMultiple(string fileName)
+        public static void GenerateTextFileMultiple(string fileName, int rows, int cols)
         {
+            Random rnd = new Random();
             using (StreamWriter sw = new StreamWriter(fileName))
             {
-                sw.WriteLine("10 25 3");
-                sw.WriteLine("8 12 1");
-                sw.WriteLine("15 7 4");
+                for (int i = 0; i < rows; i++)
+                {
+                    string line = "";
+                    for (int j = 0; j < cols; j++)
+                    {
+                        line += rnd.Next(1, 100) + " ";
+                    }
+                    sw.WriteLine(line.Trim());
+                }
             }
         }
 
@@ -172,6 +192,27 @@ namespace Lab3
                 }
             }
             Console.WriteLine("Строки, оканчивающиеся на 'б', переписаны");
+        }
+        
+        public static void GenerateCustomTextFile(string fileName, List<string> lines)
+        {
+            using (StreamWriter sw = new StreamWriter(fileName))
+            {
+                foreach (string line in lines)
+                {
+                    sw.WriteLine(line);
+                }
+            }
+        }
+        
+        public static void PrintTextFile(string fileName)
+        {
+            Console.WriteLine($"Содержимое файла {fileName}:");
+            string[] lines = File.ReadAllLines(fileName);
+            foreach (string line in lines)
+            {
+                Console.WriteLine(line);
+            }
         }
     }
 }
